@@ -2,7 +2,7 @@
 
 $tablename = "books";
 $dbname = "heroku_64357b7c6a8e2fc";
-$servername = "localhost";   
+$servername = "us-cdbr-iron-east-03.cleardb.net";   
 $username="bca0d264f64203";
 $password="f4f0322a";
 $counter = 1;
