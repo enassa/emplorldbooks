@@ -1,0 +1,97 @@
+@keyframes load{
+    from {padding-top:50%; opacity: 0.2;}
+    to{padding-top: 0%; opacity:1}
+}
+@keyframes orderanime{
+    from {background-color:snow; border-color:black;  color: black;}
+    to{background-color:black;  color: snow; border-color:white}
+}
+
+
+@keyframes unfold{
+    from {height: 0%; display:none;  opacity: 0.1;}
+    to{height: 70%; opacity:1; }
+}
+
+@keyframes fold{
+    from {height:70%; opacity:1; }
+    to{height:0%;opacity:0;}
+}
+
+
+@keyframes unfold2{
+    from {height: 0%; display:none;  opacity: 0.1;}
+    to{height: 30%; opacity:1;}
+}
+
+
+@keyframes fold2{
+    from {height:100%; opacity: 1;}
+    to{height:0%; opacity:0;}
+}
+
+@keyframes vanish{
+    from {height: 70%; display:none;  opacity: 1;}
+    to{height: 0%; opacity:0.0; }
+}
+
+.showrequestform{
+    animation-name: showrequestform;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.orderanime{
+    animation-name:orderanime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+.loadbooks {
+   animation-name: load;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
+}
+
+
+.unfold{
+    animation-name: unfold;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+ }
+ .fold{
+    animation-name: fold;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    
+ }
+
+ .unfold2{
+    animation-name: unfold2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+ }
+ .fold2{
+    animation-name: fold2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+ }
+
+ .vanish{
+    animation-name: vanish;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+ }
+ 
+/*
+@keyframes unfold_details_form{
+    from {height: 0%;}
+    to{height: 100%;}
+}
+
+@keyframes unfold_details_form{
+    from {height: 0%;}
+    to{height: 100%;}
+}
